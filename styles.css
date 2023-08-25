@@ -1,3 +1,22 @@
+body {
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 70px;
+    -webkit-font-smoothing: antialiased;
+}
+::selection {
+    background: #00b39b;
+    color: #fff;
+    text-shadow: none;
+}
+.section-interne{
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
 
 .en-tete img{
 
@@ -10,27 +29,27 @@
     gap: 10px;
     margin:auto;
 }
-.flex{
+.service{
     display: flex;
     flex-direction: row;
     justify-content: center;
     color: #fff;
-    gap: 10px;
+    gap: 20px;
     min-height: 300px;
 }
 .one{
-    border: 5px solid #00b39b;
+    border: 1px solid #00b39b;
     border-radius: 10px;
     background-color: #00b39b;
     
 }
 .two{
-    border: 5px solid #00b39b;
+    border: 1px solid #00b39b;
     border-radius: 10px;
     background-color: #00b39b;
 }
 .three{
-    border: 5px solid #00b39b;
+    border: 1px solid #00b39b;
     border-radius: 10px;
     background-color: #00b39b;
 }
