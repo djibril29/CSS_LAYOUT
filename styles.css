@@ -5,6 +5,10 @@ body {
     padding-top: 70px;
     -webkit-font-smoothing: antialiased;
 }
+body{
+    margin: 0;
+    display: :block;
+}
 ::selection {
     background: #00b39b;
     color: #fff;
@@ -19,9 +23,37 @@ body {
 }
 
 .en-tete img{
+    display: inline-block;
 
     width: 260px;
     height: 33px;
+}
+.en-tete{
+    display:inline-block;
+    box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .25s ease 0s;
+    
+}
+.menu{
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 .grid{
     display: grid;
@@ -39,17 +71,24 @@ body {
 }
 .one{
     border: 1px solid #00b39b;
-    border-radius: 10px;
+    border-radius: 6px;
     background-color: #00b39b;
     
 }
 .two{
     border: 1px solid #3D83DF;
-    border-radius: 10px;
+    border-radius: 6px;
     background-color: #3D83DF;
 }
 .three{
     border: 1px solid #1B2734;
-    border-radius: 10px;
+    border-radius: 6px;
     background-color: #1B2734;
+}
+.img-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
