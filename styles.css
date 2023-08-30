@@ -132,11 +132,12 @@ p{
     margin-inline-end: 0px;
 }
 .service{
+    margin: 3.75rem auto 2.5rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     color: #fff;
-    gap: 20px;
+    gap: 10px;
     min-height: 300px;
 }
 .one{
@@ -155,6 +156,29 @@ p{
     border-radius: 6px;
     background-color: #1B2734;
 }
+.partenaire{
+    margin: 2.5rem auto 3.125rem;
+    display: inline-block;
+}
+.partenaire h1{
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+}
+.logo-flex{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+}
+
+}
+
 .img-flex{
     display: flex;
     flex-direction: row;
