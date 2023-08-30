@@ -193,10 +193,11 @@ p{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-content: space-between;
 }
 .img-1{
     display: block;
-    box-shadow: #1B2734;
+    box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);;
     border-radius: 3px;
 }
 .statistic{
