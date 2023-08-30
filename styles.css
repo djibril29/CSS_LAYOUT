@@ -157,26 +157,36 @@ p{
     background-color: #1B2734;
 }
 .partenaire{
+
     margin: 2.5rem auto 3.125rem;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
 }
-.partenaire h1{
+
+.text1 h1{
     float: left;
     width: 33%;
     font-size: 1.625em;
     margin: 0.25em 0 0.35em;
     padding-right: 1em;
 }
-.logo-flex{
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.logo-grid{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 100px 100px 100px;
+    
     font-size: 0;
     list-style: none;
     width: 67%;
 }
 
+.logo-grid li{
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: 25%;
 }
 
 .img-flex{
