@@ -195,10 +195,14 @@ p{
     flex-wrap: wrap;
     align-content: space-between;
 }
+.img-flex button{
+    display: block;
+}
 .img-1{
     display: block;
     box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);;
-    border-radius: 3px;
+    border-radius: 10px;
+    border: 1rem;
 }
 .statistic{
     background: #e5faf8;
@@ -210,4 +214,8 @@ p{
 .bureaux{
     display: flex;
     flex-direction: row;
+}
+.element-grid{
+    
+    border: 1rem solid;
 }
